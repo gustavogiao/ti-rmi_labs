@@ -29,7 +29,7 @@ public class MathClient {
                     case 1:
                         System.out.println("Number");
                         int n = scanner.nextInt();
-                        System.out.println("Resultado: " + service.factorial(n));
+                        System.out.println("Result: " + service.factorial(n));
                         break;
 
                     case 2:
@@ -37,7 +37,7 @@ public class MathClient {
                         int n1 = scanner.nextInt();
                         System.out.println("Number 2: ");
                         int n2 = scanner.nextInt();
-                        System.out.println("Resultado: " + service.maxPrimeBetween(n1, n2));
+                        System.out.println("Result: " + service.maxPrimeBetween(n1, n2));
                         break;
 
                     case 3:
@@ -45,7 +45,7 @@ public class MathClient {
                         n1 = scanner.nextInt();
                         System.out.println("Number 2: ");
                         n2 = scanner.nextInt();
-                        System.out.println("Resultado: " + service.minPrimeBetween(n1, n2));
+                        System.out.println("Result: " + service.minPrimeBetween(n1, n2));
                         break;
 
                     case 4:
@@ -57,7 +57,7 @@ public class MathClient {
                             .map(Double::parseDouble)
                             .toList();
 
-                        System.out.println("Resultado: " + service.sum(values));
+                        System.out.println("Result: " + service.sum(values));
                         break;
 
                     case 0:
